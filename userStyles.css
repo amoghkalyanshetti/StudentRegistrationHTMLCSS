@@ -1,0 +1,42 @@
+input[type],select {
+
+    border-radius: 4px;
+    background-color: #3CBC8D;
+    color: white;
+}
+fieldset
+{
+    background:azure ;
+    width: 700px;
+}
+input[type]:focus,select:focus
+{
+    border: 2px solid darkgreen;
+}
+legend
+{
+    font-style: italic;
+}
+body
+{
+    font-family:"Verdana";
+    margin: 0;
+    padding: 0;
+}
+input[type="submit"]:hover,input[type="reset"]:hover
+{
+    background: green;
+
+}
+textarea
+{
+    background: #3CBC8D;
+    color: white;
+    border-radius: 4px;
+}
+form
+{
+    align: center;
+    width: 700px;
+    margin: 0 auto;
+}
